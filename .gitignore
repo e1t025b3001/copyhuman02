@@ -31,3 +31,30 @@ Thumbs.db
 
 # Environment variables
 .env
+
+# Machine learning / fine-tuning
+data/
+datasets/
+experiments/
+outputs/
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.h5
+*.onnx
+*.safetensors
+
+# Training logs / tracking
+logs/
+runs/
+wandb/
+.mlflow/
+mlruns/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
