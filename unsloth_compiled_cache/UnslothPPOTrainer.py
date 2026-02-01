@@ -322,7 +322,7 @@ class UnslothPPOConfig(PPOConfig):
     
     def __init__(
         self,
-        exp_name = '04_train',
+        exp_name = '06_test_multilingual',
         seed = 3407,
         log_with = None,
         task_name = None,

@@ -133,7 +133,7 @@ def main():
 
     # 載入數據
     print("📂 載入數據集...")
-    dataset = load_dataset("json", data_files="uruha_final_train.json", split="train")
+    dataset = load_dataset("json", data_files="uruha_clean_train.json", split="train")
 
     def formatting_prompts_func(examples):
         instructions = examples["instruction"]
